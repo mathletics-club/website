@@ -59,10 +59,8 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            "mathletics/templates",
             "home/templates",
-            "blog/templates",
-            "quiz/templates"
+            "blog/templates"
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -131,4 +129,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+# STATIC_ROOT = os.path.join(BASE_DIR, "static")
